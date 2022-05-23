@@ -25,7 +25,7 @@ void DisplayFactors(int iNo)
         iNo = -iNo;
     }
 
-    for(iCnt = 1; iCnt < iNo; iCnt++)
+    for(iCnt = 1; iCnt <= (iNo/2) ; iCnt++)
     {
         if((iNo % iCnt) == 0)
         {
@@ -41,12 +41,11 @@ int main()
     printf("Enter number : \n");
     scanf("%d",&iValue);
 
-    DisplayFactors(iValue);     // DisplayFactors(-8);
+    DisplayFactors(iValue);
     return 0;
 }
 
-
-// Time Complexity : O(N)
+// Time Complexity : O(N/2)
 
 
 
