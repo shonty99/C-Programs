@@ -1,3 +1,6 @@
+//Write a Program To Display Hello World.
+//Output : Hello, World!
+
 #include <stdio.h>
 int main() {
    // printf() displays the string inside quotation
