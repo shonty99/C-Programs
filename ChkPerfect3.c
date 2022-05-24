@@ -1,5 +1,5 @@
 //Accept one number from user and check weather its Perfect or not
-//Input : 13
+//Input : 6
 // Output : Perfect Number
 
 
