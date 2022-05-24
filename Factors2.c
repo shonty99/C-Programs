@@ -1,3 +1,5 @@
+//Write a program to display its Factors
+
 #include<stdio.h>
 
 void DisplayNonFactors(int iNo)
