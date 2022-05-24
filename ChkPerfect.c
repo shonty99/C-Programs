@@ -1,5 +1,5 @@
 //Accept one number from user and check weather its perfect or not
-//Input : 11
+//Input : 6
 //Ouput : Perfect number
 
 #include<stdio.h>
